@@ -6,10 +6,10 @@
   "private": true,
   "license": "MTI",
   "scripts": {
-    "build:api": "nest build",
+    "build": "nest build",
     "api": "cross-env NODE_ENV=dev nest start --watch",
+    "start": "cross-env NODE_ENV=prod node dist/main",
     "start:debug-api": "cross-env NOCE_ENV=dev nest start --debug --watch",
-    "start:prod-api": "cross-env NODE_ENV=prod node dist/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
