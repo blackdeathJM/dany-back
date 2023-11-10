@@ -5,6 +5,9 @@
   "author": "BLACKDEATH",
   "private": true,
   "license": "MTI",
+  "engines": {
+    "node": "20.9.0"
+  },
   "scripts": {
     "build": "nest build",
     "api": "cross-env NODE_ENV=dev nest start --watch",
